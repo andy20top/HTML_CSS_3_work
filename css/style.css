@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-top: 40px;
+}
+
+.header_logo {
+  margin-left: 200px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 600px;
+}
+
+.link_menu {
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+.link_menu a {
+  text-decoration: none;
+}
+
+.content {
+  margin: 40px 0;
+}
+.content_info {
+  margin-left: 200px;
+}
+
+.info_btns a {
+  text-decoration: none;
+}
+
+.content_image {
+  padding-left: 600px;
+}
+
+.foot_logo {
+  margin-left: 200px;
+}
+
+.footer_logo {
+  padding-right: 60px;
+}
