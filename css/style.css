@@ -1,20 +1,80 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy-Regular.ttf) format("truetype"),
+    url("/fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy-Bold.ttf) format("truetype"),
+    url("/fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/fonts/Gilroy-Medium.ttf) format("truetype"),
+    url("/fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: "Gilroy", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
 .header {
   margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 102px;
 }
 
 .header_logo {
-  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.text_logo {
+  display: flex;
+  gap: 0;
+  font-weight: bold;
+}
+
+.text_logo .grow {
+  color: #000;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.text_logo .be {
+  color: #f25822;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.header_menu {
+  display: flex;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
-  margin-left: 600px;
+  align-items: center;
 }
 
 .link_menu {
@@ -24,28 +84,70 @@
 
 .link_menu a {
   text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.home a {
+  color: #f25822;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .content {
-  margin: 40px 0;
+  display: flex;
 }
-.content_info {
-  margin-left: 200px;
+
+.about_h1 {
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+
+.text_content {
+  color: #888;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.info_btns {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
 
 .info_btns a {
   text-decoration: none;
+  font-weight: bold;
 }
 
-.content_image {
-  padding-left: 600px;
+.info_btn {
+  border-radius: 50px;
+  background: #f25822;
+  color: white;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  padding: 7px 10px;
+}
+
+.btn {
+  color: #aaa;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .foot_logo {
-  margin-left: 200px;
-  margin-top: 200px;
-}
-
-.footer_logo {
-  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 210px;
 }
