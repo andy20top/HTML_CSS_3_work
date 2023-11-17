@@ -151,3 +151,102 @@ body {
   justify-content: space-between;
   margin-top: 210px;
 }
+
+.second_page {
+  margin-top: 100px;
+  background: #fafafa;
+  margin-bottom: 40px;
+}
+
+.top_half_page {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  gap: 44px;
+}
+
+.top_half_page .first_square {
+  width: 370px;
+  height: 291px;
+  flex-shrink: 0;
+}
+
+.top_half_page .sec_square {
+  width: 370px;
+  height: 291px;
+  flex-shrink: 0;
+  background: #fff;
+
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.second_page .top_half_page .third_square {
+  width: 370px;
+  height: 291px;
+  flex-shrink: 0;
+}
+
+.second_page .footer_half_page .text_content_block .heading {
+  color: #000;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.second_page .footer_half_page .text_content_block .text_content {
+  color: #666;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.second_page .footer_half_page .advantages {
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+}
+
+.second_page .footer_half_page .advantage_container {
+  padding: 30px;
+  text-align: center;
+}
+
+.second_page .footer_half_page .advantage_container .adv_background {
+  background-color: #fff;
+}
+
+.second_page .footer_half_page .advantage_container .heading_adv {
+  color: #000000;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.second_page .footer_half_page .advantage_container .text_adv {
+  color: #aaa;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+}
+
+.second_page .footer_half_page .advantage_container .btn_adv {
+  border-radius: 50px;
+  background: #f25822;
+  color: white;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  padding: 7px 10px;
+  margin-top: 30px;
+}
+
+.second_page .footer_half_page .advantage_container .heading_adv,
+.second_page .footer_half_page .advantage_container .text_adv {
+  padding-top: 30px;
+}
